@@ -1,30 +1,59 @@
-Sahil Singhi
-Cybersecurity Engineer · Digital Forensics · SOC Detection · GRC · Threat Intelligence
-Chennai, India
+# Hey, I'm Sahil 👋
 
-I build security tools and detection content. Currently a Junior Security Analyst / DFIR Analyst at Alibi Technologies LLP, where I run live incident investigations across malware, account takeovers, and financial fraud. My work spans detection engineering, security automation, digital forensics, and Indian data-protection compliance.
+Security analyst and DFIR practitioner based in Chennai. I investigate real incidents for a living — malware, account takeovers, financial intrusions — and I build tools on the side to close gaps I keep running into at work.
 
-Open to opportunities in SOC · Detection Engineering · Threat Intelligence · GRC · Security Consulting.
+Previously at **Alibi Technologies**, where I was deployed to the **Office of the Commissioner of Police, Chennai** working on live cybercrime cases across CCB, FIW, and ATS. Currently looking for my next role in SOC, DFIR, or threat intelligence.
 
-Currently shipping
-A 10-project portfolio push covering SOC, network security, threat intelligence, GRC, and digital forensics — each project ships to GitHub as a fully documented, reproducible build with validation evidence.
+---
 
-Featured Work
-ProjectStackStatus01SOC Detection Lab — Dual-SIEM lab (Splunk + Wazuh) on ARM64 with Sysmon-instrumented endpoints. 32 detection rules across 12 MITRE ATT&CK tactics, validated end-to-end via Atomic Red Team. Includes a documented false-positive tuning story on T1003.001 LSASS access.Splunk · Wazuh · Sysmon · MITRE ATT&CK · ARM64Shipped v1.002SOAR Alert Triage Automation — 13-node n8n pipeline auto-triaging phishing emails and SIEM alerts. 5-source threat-intel enrichment (VirusTotal · AbuseIPDB · URLhaus · ThreatFox · IPinfo) + composite 0-100 risk scoring + Claude-generated executive summary with MITRE ATT&CK mapping.n8n · Anthropic Claude · 5 TI APIsShipped v1.003India DPDP Act Compliance Tool — live demo — Next.js self-assessment web app for India's Digital Personal Data Protection Act 2023. 66 questions across 11 obligation areas, penalty-exposure weighted scoring engine, privacy-first architecture (zero server-side persistence), client-side jsPDF executive report.Next.js 14 · TypeScript · Tailwind · jsPDF · VercelShipped v1.0
+## Portfolio Projects
 
-Capabilities
-SOC & Detection — Splunk · Wazuh · Sysmon · Sigma · MITRE ATT&CK Navigator · Atomic Red Team
-Forensics & Incident Response — Volatility · Magnet AXIOM · Cellebrite · Autopsy · FTK · Chain of Custody
-Threat Intel & Network — Wireshark · OSINT · IOC pipelines · Burp Suite · Nessus · Nmap · Metasploit
-GRC & Privacy — DPDP Act 2023 · ISO 27001:2022 · NIST CSF · MITRE ATT&CK Mapping
-Programming & Automation — Python · TypeScript · Bash · n8n · jsPDF · Docker · Next.js
+I built these to solve problems I actually hit in my day-to-day work. Not coursework.
 
-Credentials
-CompTIA Security+ (SY0-701) · EC-Council CHFI · B.Tech CSE — Cybersecurity & Forensics, UPES Dehradun (2025)
+| Project | What it does |
+|---|---|
+| [SOC Detection Lab](https://github.com/sahilsinghi/soc-detection-lab) | 32 MITRE ATT&CK detection rules validated end-to-end on Splunk + Wazuh. Tuned out real FPs — including svchost→lsass 0x1000 status-query noise that fires on every Windows box. |
+| [SOAR Alert Triage](https://github.com/sahilsinghi/soar-alert-triage) | n8n pipeline that auto-triages phishing emails and IP/URL alerts across 5 threat intel APIs with composite risk scoring and MITRE mapping. |
+| [APT Threat Actor Profiler](https://github.com/sahilsinghi/apt-threat-actor-profile) | Profiles APT groups from MITRE STIX data — motivations, TTPs, targets, historical campaigns. Built to speed up threat intel writeups. |
+| [DPDP Compliance Tool](https://github.com/sahilsinghi/dpdp-compliance-tool) | Self-assessment tool for India's DPDP Act 2023. 66 questions, 11 obligation areas, client-side PDF report. [Live →](https://dpdp-compliance-tool.vercel.app) |
+| [ISO 27001 Tracker](https://github.com/sahilsinghi/iso27001-compliance-tracker) | All 93 Annex A controls with maturity scoring, gap analysis, and a Stage-1 audit-readiness verdict. [Live →](https://iso27001-compliance-tracker.vercel.app) |
 
-Connect
+---
 
-LinkedIn — linkedin.com/in/sahilsinghi
-Email — sahilsinghi2002@gmail.com
-Location — Chennai, India
-Best way to reach me — LinkedIn DM
+## What I work with
+
+**IR & Forensics** — Magnet AXIOM · Cellebrite · Autopsy · FTK · Volatility · chain of custody documentation
+
+**Detection & SIEM** — Splunk · Wazuh · Sysmon · MITRE ATT&CK · Sigma · Cyber Kill Chain
+
+**Network Analysis** — Wireshark · C2 infrastructure mapping · lateral movement reconstruction
+
+**VAPT** — Burp Suite · Nessus · Nmap · Metasploit · OWASP Top 10
+
+**Scripting** — Python · Bash
+
+---
+
+## Where I've worked
+
+🔹 **Alibi Technologies LLP** — Junior Security Analyst / DFIR Analyst *(Nov 2025 – May 2026)*
+Started as an intern at Alibi (Jul 2025). Work got noticed — Alibi deployed me to the **Office of the Commissioner of Police, Chennai** in Oct 2025, and the team there kept me on full-time from Nov 2025. Worked across CCB (Central Crime Branch), FIW (Financial Investigation Wing), and ATS (Anti-Terrorism Squad) on live cybercrime cases. Investigated 150+ incidents end-to-end (malware, account takeovers, financial intrusions), performed forensic acquisition on 100+ Windows/Linux/mobile endpoints using Magnet AXIOM, Cellebrite, Autopsy, FTK, and Volatility — 200+ IOCs fed into client SIEM blocklists.
+
+🔹 **IBM Phemesoft** — Summer Intern *(Jun – Jul 2024)*
+Designed a Cloud Security Governance Toolkit aligned to NIST CSF and MITRE ATT&CK.
+
+---
+
+## Certifications
+
+- CompTIA Security+ (SY0-701)
+- EC-Council CHFI
+**Training / Workshops**
+- VECTOR — Where Systems Collapse *(Vulnshields & Cyber Secured India × MKITOS × OPSWAT Academy, May–Jun 2026)*
+  Practical sessions: recon, web exploitation, access control vulnerabilities, API security, LLM attacks
+
+B.Tech. CSE (Cybersecurity & Forensics) — UPES Dehradun, 2025
+
+---
+
+📬 [linkedin.com/in/sahilsinghi](https://linkedin.com/in/sahilsinghi) · sahilsinghi2002@gmail.com
